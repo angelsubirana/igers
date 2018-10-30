@@ -1,0 +1,57 @@
+.carousel {
+	overflow: hidden;
+	text-align: center
+}
+
+.carousel .carousel__item {
+	padding-right: 0.75em;
+	padding-left: 0.75em
+}
+
+.carousel .carousel__img {
+	border-radius: 36px;
+	border: 6px solid #fff;
+	display: inline-block;
+	height: auto;
+	max-width: 227px
+}
+
+.carousel-container {
+	position: relative
+}
+
+.carousel-container .phone-container {
+	position: absolute;
+	top: -5.25em;
+	left: 50%;
+	margin-left: 0.125em;
+	transform: translateX(-50%) scale(0.72);
+	z-index: 900
+}
+
+.carousel-container .phone-container .phone__screen {
+	background: transparent
+}
+
+.slick-next,
+.slick-prev {
+	top: 35% !important
+}
+
+.slick-next:before,
+.slick-prev:before {
+	background: url(../images/icons/icon-chevron.svg) center no-repeat;
+	content: "" !important;
+	display: block;
+	height: 1.5em;
+	width: 1.5em
+}
+
+.slick-next {
+	right: -80px !important
+}
+
+.slick-prev {
+	transform: rotate(180deg) !important;
+	left: -80px !important
+}
