@@ -9,16 +9,20 @@ keywords: angel, subirana, fernandez, bobgoo, apps, ios, iphone, ipad, safe, web
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-url: https://www.bobgoo.com
-enforce_ssl: www.bobgoo.com
+url: https://igers.bobgoo.com
+enforce_ssl: igers.bobgoo.com
 
+# App Setting
+app_title: Still Followers
+app_subtitle: for Instagram
+app_description: Have you ever wondered how to get more followers on Instagram?
+appstore_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
 
 # User settings
-username: Still Followers
-user_title: for Instagram
-user_description: Have you ever wondered how to get more followers on Instagram?
+username: Angel Subirana
 email: support@bobgoo.com
 twitter_username: stillfollowers
+instagram_username: stillfollowers
 
 # Google-analytics
 google_analytics_key: UA-25289053-4
