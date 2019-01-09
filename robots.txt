@@ -1,6 +1,7 @@
 User-Agent: *
-Disallow: 
 Disallow: /privacy*
 Disallow: /tos*
+Noindex: /privacy*
+Noindex: /tos*
 
 Sitemap: https://igers.bobgoo.com/sitemap.xml
